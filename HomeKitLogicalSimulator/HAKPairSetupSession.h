@@ -17,10 +17,9 @@
     NSData *_sessionKey;
     NSString *_username;
     NSString *_password;
-    id <HAKPairingSessionDelegate> _delegate;
 }
 
-@property __weak id <HAKPairingSessionDelegate> delegate; // @synthesize delegate=_delegate;
+@property id delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) NSData *sessionKey; // @synthesize sessionKey=_sessionKey;
 @property(retain, nonatomic) NSString *password; // @synthesize password=_password;
 @property(retain, nonatomic) NSString *username; // @synthesize username=_username;

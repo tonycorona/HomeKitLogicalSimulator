@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC67E8EE19E081E500A3D6EE /* HAPAccessoryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC67E8ED19E081E500A3D6EE /* HAPAccessoryKit.framework */; };
 		CC81AEF219A63712006DB885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC81AEF119A63712006DB885 /* main.m */; };
 		CC81AEF519A63712006DB885 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC81AEF419A63712006DB885 /* AppDelegate.m */; };
 		CC81AEF719A63712006DB885 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC81AEF619A63712006DB885 /* Images.xcassets */; };
 		CC81AEFA19A63712006DB885 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC81AEF819A63712006DB885 /* MainMenu.xib */; };
 		CC81AF0619A63712006DB885 /* HomeKitLogicalSimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC81AF0519A63712006DB885 /* HomeKitLogicalSimulatorTests.m */; };
-		CC81AF1019A63733006DB885 /* HAPAccessoryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC81AF0F19A63733006DB885 /* HAPAccessoryKit.framework */; };
-		CC81AF1219A6373B006DB885 /* HAPAccessoryKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC81AF0F19A63733006DB885 /* HAPAccessoryKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CC81AF7819A637A9006DB885 /* OTIHAPCore.m in Sources */ = {isa = PBXBuildFile; fileRef = CC81AF7719A637A9006DB885 /* OTIHAPCore.m */; };
 		CC81AF7B19A63866006DB885 /* GarageDoorOpener.m in Sources */ = {isa = PBXBuildFile; fileRef = CC81AF7A19A63866006DB885 /* GarageDoorOpener.m */; };
 		CC81B05C19A64823006DB885 /* Thermostat.m in Sources */ = {isa = PBXBuildFile; fileRef = CC81B05B19A64823006DB885 /* Thermostat.m */; };
@@ -36,7 +35,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CC81AF1219A6373B006DB885 /* HAPAccessoryKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CC67E8ED19E081E500A3D6EE /* HAPAccessoryKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HAPAccessoryKit.framework; path = "../../../../../../Applications/HomeKit Accessory Simulator.app/Contents/Frameworks/HAPAccessoryKit.framework"; sourceTree = "<group>"; };
 		CC81AEEC19A63712006DB885 /* HomeKitLogicalSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeKitLogicalSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC81AEF019A63712006DB885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC81AEF119A63712006DB885 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +53,6 @@
 		CC81AEFF19A63712006DB885 /* HomeKitLogicalSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeKitLogicalSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC81AF0419A63712006DB885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC81AF0519A63712006DB885 /* HomeKitLogicalSimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeKitLogicalSimulatorTests.m; sourceTree = "<group>"; };
-		CC81AF0F19A63733006DB885 /* HAPAccessoryKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HAPAccessoryKit.framework; sourceTree = "<group>"; };
 		CC81AF7619A637A9006DB885 /* OTIHAPCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTIHAPCore.h; sourceTree = "<group>"; };
 		CC81AF7719A637A9006DB885 /* OTIHAPCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTIHAPCore.m; sourceTree = "<group>"; };
 		CC81AF7919A63866006DB885 /* GarageDoorOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageDoorOpener.h; sourceTree = "<group>"; };
@@ -179,7 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC81AF1019A63733006DB885 /* HAPAccessoryKit.framework in Frameworks */,
+				CC67E8EE19E081E500A3D6EE /* HAPAccessoryKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,8 +230,8 @@
 		CC81AEEF19A63712006DB885 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC67E8ED19E081E500A3D6EE /* HAPAccessoryKit.framework */,
 				CC81AF7519A6377E006DB885 /* HAPAccessoryKitHeaders */,
-				CC81AF0F19A63733006DB885 /* HAPAccessoryKit.framework */,
 				CC81AEF019A63712006DB885 /* Info.plist */,
 				CC81AEF119A63712006DB885 /* main.m */,
 			);
@@ -597,9 +595,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HomeKitLogicalSimulator",
+					"\"/Applications/HomeKit Accessory Simulator.app/Contents/Frameworks\"",
 				);
 				INFOPLIST_FILE = HomeKitLogicalSimulator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks \"/Applications/HomeKit Accessory Simulator.app/Contents/Frameworks\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -613,9 +612,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HomeKitLogicalSimulator",
+					"\"/Applications/HomeKit Accessory Simulator.app/Contents/Frameworks\"",
 				);
 				INFOPLIST_FILE = HomeKitLogicalSimulator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks \"/Applications/HomeKit Accessory Simulator.app/Contents/Frameworks\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
